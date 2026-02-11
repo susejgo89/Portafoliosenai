@@ -1,0 +1,58 @@
+const translations = {
+    pt: {
+        nav_about: "Sobre mim",
+        nav_projects: "Projetos",
+        nav_contact: "Contato",
+        about_title: "Sobre mim",
+        about_text: "Olá! Meu nome é Susej Gonzalez, sou uma estudante de Sistemas para Internet, apaixonada por tecnologia e inovação. Tenho experiência em desenvolvimento de software, inteligência artificial e análise de dados. Estou sempre buscando aprender novas habilidades e enfrentar desafios emocionantes no campo da tecnologia.",
+        skills_title: "Habilidades",
+        skill_1: "Programação em JavaScript",
+        skill_2: "Desenvolvimento web com HTML, CSS e frameworks como React",
+        skill_3: "Inteligência Artificial e Machine Learning",
+        skill_4: "Análise de dados e visualização",
+        projects_title: "Projetos",
+        project_1_title: "DominoPro1- Gerenciador de toneos de Domino",
+        project_1_desc: "Aplicação web full-stack projetada para a gestão completa de torneios de dominó, automatizando desde a inscrição até a classificação final. A plataforma implementa lógicas de negócio complexas baseadas em regulamentos oficiais para garantir a transparência e competitividade do evento.",
+        footer_rights: "Direitos autorais © 2024 Susej Gonzalez. Todos os direitos reservados.",
+        contact_title: "contato",
+        email_label: "Email",
+        phone_label: "Telefone",
+        demo_button_dominopro1: "Demo",
+        demo_button_nexusreplay: "Demo",
+        project_2_title: "NexusReplay - Plataforma de Conteudo corporativo",
+        project_2_desc: "Aplicação web profissional para gestão remota de conteúdo multimídia em múltiplas telas. O NexusPlay permite aos usuários controlar playlists visuais e musicais, registrar dispositivos com segurança e atualizar o conteúdo em tempo real sem intervenção manual."
+    },
+    es: {
+        nav_about: "Sobre mí",
+        nav_projects: "Proyectos",
+        nav_contact: "Contacto",
+        about_title: "Sobre mí",
+        about_text: "¡Hola! Mi nombre es Susej Gonzalez, soy una estudiante de Sistemas para Internet, apasionada por la tecnología y la innovación. Tengo experiencia en desarrollo de software, inteligencia artificial y análisis de datos. Siempre estoy buscando aprender nuevas habilidades y enfrentar desafíos emocionantes en el campo de la tecnología.",
+        skills_title: "Habilidades",
+        skill_1: "Programación en JavaScript",
+        skill_2: "Desarrollo web con HTML, CSS y frameworks como React",
+        skill_3: "Inteligencia Artificial y Machine Learning",
+        skill_4: "Análisis de datos y visualización",
+        projects_title: "Proyectos",
+        project_1_title: "DominoPro1 - Gestor de torneos de Dominó",
+        project_1_desc: "Aplicación web full-stack diseñada para la gestión completa de torneos de dominó, automatizando desde la inscripción hasta la clasificación final. La plataforma implementa lógicas de negocio complejas basadas en reglamentos oficiales para garantizar la transparencia y competitividad del evento.",
+        footer_rights: "Derechos de autor © 2024 Susej Gonzalez. Todos los derechos reservados.",
+        contact_title: "Contacto",
+        email_label: "Email",
+        phone_label: "Teléfono",
+        demo_button_dominopro1: "Demo",
+        demo_button_nexusreplay: "Demo",
+        project_2_title: "NexusReplay - Plataforma de Contenido Corporativo",
+        project_2_desc: "Aplicación web profesional para la gestión remota de contenido multimedia en múltiples pantallas. NexusPlay permite a los usuarios controlar listas de reproducción visuales y musicales, registrar dispositivos de forma segura y actualizar el contenido en tiempo real sin intervención manual."
+    }
+};
+
+function changeLanguage(lang) {
+    const elements = document.querySelectorAll('[data-i18n]');
+    elements.forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        if (translations[lang] && translations[lang][key]) {
+            element.innerText = translations[lang][key];
+        }
+    });
+}

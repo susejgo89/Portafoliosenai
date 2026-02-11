@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susej Gonzalez</title>
+</head>
+
+<body>
+    <header>
+        <h1>Susej Gonzalez</h1>
+
+        <nav> <!-- menu de navegação -->
+            <ul>
+                <li><a href="#sobre-mim" data-i18n="nav_about">Sobre mim</a></li>
+                <li><a href="#projetos" data-i18n="nav_projects">Projetos</a></li>
+                <li><a href="#contato" data-i18n="nav_contact">Contato</a></li>
+                <li>
+                    <button onclick="changeLanguage('pt')">🇧🇷</button>
+                    <button onclick="changeLanguage('es')">🇪🇸</button>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+<section id="sobre-mim">
+    <h2 data-i18n="about_title">Sobre mim</h2>
+    
+    <img src="assets\susej ia.png" alt="Foto de Susej Gonzalez" width="200">
+
+    <article>
+        <p data-i18n="about_text">
+            Olá! Meu nome é Susej Gonzalez, sou uma estudante de Sistemas para Internet, apaixonada por tecnologia e inovação.
+            Tenho experiência em desenvolvimento de software, inteligência artificial e análise de dados. Estou sempre buscando
+            aprender novas habilidades e enfrentar desafios emocionantes no campo da tecnologia.
+        </p>
+    </article>
+
+    <aside>
+        <h3 data-i18n="skills_title">Habilidades</h3>
+        <ul>
+            <li data-i18n="skill_1">Programação em  JavaScript </li>
+            <li data-i18n="skill_2">Desenvolvimento web com HTML, CSS e frameworks como React</li>
+            <li data-i18n="skill_3">Inteligência Artificial e Machine Learning</li>
+            <li data-i18n="skill_4">Análise de dados e visualização</li>
+        </ul>
+    </aside>
+
+    <article>
+        <h3 data-i18n="education_title">Formação Acadêmica</h3>
+        <p data-i18n="education_text">Cursando Sistemas para Internet no SENAI.</p>
+    </article>
+
+</section>
+
+<section id="projetos">
+    <h2 data-i18n="projects_title">Projetos</h2>
+    <article>
+        <h3 data-i18n="project_1_title"> DominoPro1 - Gerenciador de toneos de Domino </h3>
+        <p data-i18n="project_1_desc">
+            Aplicação web full-stack projetada para a gestão completa de torneios de dominó, automatizando desde a inscrição até
+            a classificação final. A plataforma implementa lógicas de negócio complexas baseadas em regulamentos oficiais para
+            garantir a transparência e competitividade do evento.
+        </p>
+        <a href="https://dominopro1.com/" target="_blank">
+            <button data-i18n="demo_button_dominopro1">Demo</button>
+        </a>
+       
+    </article>
+    <article>
+        <h3 data-i18n="project_2_title"> NexusReplay - Plataforma de Conteudo corporativo </h3>
+        <p data-i18n="project_2_desc">
+            Aplicação web profissional para gestão remota de conteúdo multimídia em múltiplas telas. O NexusPlay permite aos
+            usuários controlar playlists visuais e musicais, registrar dispositivos com segurança e atualizar o conteúdo em tempo
+            real sem intervenção manual.
+        </p>
+        <a href="https://sutechtvcorporativa.web.app/" target="_blank">
+            <button data-i18n="demo_button_nexusreplay">Demo</button>
+        </a>
+    </article>
+
+</section>
+<footer>
+    <p data-i18n="footer_rights"> Direitos autorais © 2024 Susej Gonzalez. Todos os direitos reservados.</p> 
+
+    <section id="contato">
+        <h2 data-i18n="contact_title">contato</h2>
+        <address>
+            <span data-i18n="email_label">Email</span>: <a href="mailto:susejgo@gmail.com">susejgo@gmail.com</a> <br>
+            <span data-i18n="phone_label">Telefone</span>: <a href="https://wa.me/5548991242305" target="_blank">(48) 99124 2305</a>
+        </address>
+    </section>
+
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
