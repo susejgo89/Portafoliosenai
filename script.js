@@ -20,7 +20,16 @@ const translations = {
         demo_button_dominopro1: "Demo",
         demo_button_nexusreplay: "Demo",
         project_2_title: "NexusReplay - Plataforma de Conteudo corporativo",
-        project_2_desc: "Aplicação web profissional para gestão remota de conteúdo multimídia em múltiplas telas. O NexusPlay permite aos usuários controlar playlists visuais e musicais, registrar dispositivos com segurança e atualizar o conteúdo em tempo real sem intervenção manual."
+        project_2_desc: "Aplicação web profissional para gestão remota de conteúdo multimídia em múltiplas telas. O NexusPlay permite aos usuários controlar playlists visuais e musicais, registrar dispositivos com segurança e atualizar o conteúdo em tempo real sem intervenção manual.",
+        nome_label: "Nome",
+        email_label: "Email",
+        phone_label: "Telefone",
+        subject_label: "Assunto",
+        duvida_option: "dúvidas",
+        subject_outro_option: "outro",
+        subject_option_1: "Orçamento",
+         newsletter_label: "Inscrever-se na newsletter, fique por dentro!",
+         button_enviar_formlario: "Enviar"
     },
     es: {
         nav_about: "Sobre mí",
@@ -43,8 +52,19 @@ const translations = {
         demo_button_dominopro1: "Demo",
         demo_button_nexusreplay: "Demo",
         project_2_title: "NexusReplay - Plataforma de Contenido Corporativo",
-        project_2_desc: "Aplicación web profesional para la gestión remota de contenido multimedia en múltiples pantallas. NexusPlay permite a los usuarios controlar listas de reproducción visuales y musicales, registrar dispositivos de forma segura y actualizar el contenido en tiempo real sin intervención manual."
+        project_2_desc: "Aplicación web profesional para la gestión remota de contenido multimedia en múltiples pantallas. NexusPlay permite a los usuarios controlar listas de reproducción visuales y musicales, registrar dispositivos de forma segura y actualizar el contenido en tiempo real sin intervención manual.",
+        nome_label: "Nombre",
+        email_label: "Email",
+        phone_label: "Teléfono",
+        subject_label: "Asunto",
+        duvida_option: "dudas",
+        subject_outro_option: "otro", 
+        subject_option_1: "Presupuesto",
+        newsletter_label: "¡Suscríbete al newsletter, mantente informado!",
+        button_enviar_formlario: "Enviar"
+       
     }
+
 };
 
 function changeLanguage(lang) {
