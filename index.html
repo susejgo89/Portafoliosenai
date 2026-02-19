@@ -38,19 +38,9 @@
         </p>
     </article>
 
-    <aside>
-        <h3 data-i18n="skills_title">Habilidades</h3>
-        <ul>
-            <li data-i18n="skill_1">Programação em  JavaScript </li>
-            <li data-i18n="skill_2">Desenvolvimento web com HTML, CSS e frameworks como React</li>
-            <li data-i18n="skill_3">Inteligência Artificial e Machine Learning</li>
-            <li data-i18n="skill_4">Análise de dados e visualização</li>
-        </ul>
-    </aside>
-
     <article>
         <h3 data-i18n="education_title">Formação Acadêmica</h3>
-        <p data-i18n="education_text">Cursando Sistemas para Internet no SENAI.</p>
+        <p data-i18n="education_text">Cursando Tecnologo Sistemas para Internet .</p>
     </article>
 
 </section>
@@ -81,7 +71,46 @@
         </a>
     </article>
 
+</section id= "habilidades">
+    <h2 data-i18n="skills_title">Habilidades e Tegnologias</h2>
+
+        <table>
+            <head>
+                <tr>
+                    <th data-i18n="skills_col_tech">Tecnologias</th>
+                    <th data-i18n="skills_col_level">Nível</th>
+                    <th data-i18n="skills_col_desc">Descrição</th>
+                </tr>
+            </head>
+            <tbody>
+                <tr>
+                    <td data-i18n="html_skills">HTML</td>
+                    <td data-i18n="html_level">Iniciante</td>
+                    <td data-i18n="html_desc">Conhecimento básico de marcação e estruturação de páginas web. Capaz de contruie paginas web semanticas e
+                        responsivas.</td>
+                </tr>
+
+                <tr>
+                    <td data-i18n="css_skills">CSS</td>
+                    <td data-i18n="css_level">Iniciante</td>
+                    <td data-i18n="css_desc">Conhecimento básico de estilização e layout de páginas web. Capaz de criar designs responsivos e modernos.</td>
+                </tr>
+
+                <tr>
+                    <td data-i18n="javascript_skills">JavaScript</td>
+                    <td data-i18n="javascript_level">Básico</td>
+                    <td data-i18n="javascript_desc">Conhecimento básico de programação em JavaScript para interatividade e dinamismo em páginas web.</td>
+                </tr>
+            </tbody>
+
+
+        </table>
+ 
+<section>
+
+
 </section>
+
 <footer>
     <p data-i18n="footer_rights"> Direitos autorais © 2024 Susej Gonzalez. Todos os direitos reservados.</p> 
 
@@ -94,10 +123,10 @@
 
         <form action="">
              <label for="nome" data-i18n="nome_label">Nome:</label>
-             <input type="text" id="nome" name="nome"><br>
+             <input type="text" id="nome" name="nome" required> <br>
 
              <label for="email" data-i18n="email_label">Email:</label>
-             <input type="email" id="email" name="email"><br>
+             <input type="email" id="email" name="email" required> <br>
 
               <label for="telefone" data-i18n="phone_label">Telefone:</label>
              <input type="tel" id="telefone" name="telefone"><br>
@@ -111,10 +140,13 @@
                 <br>
 
              <label for="mensagem" data-i18n="message_label">Mensagem: </label>
-             <textarea id="mensagem" name="mensagem" rows="5" cols="18"></textarea><br>
+             <textarea id="mensagem" name="mensagem" rows="5" cols="18" required></textarea><br>
 
              <input type="checkbox" id="inscricao" name="inscricao">
-                <label for="inscricao" data-i18n="newsletter_label">Inscrever-se na newsletter, fique por dentro! </label><br>
+                <label for="inscricao" data-i18n="newsletter_label">Inscrever-se na newsletter, fique por dentro! </label>
+                
+                <br>
+
              <input type="submit" data-i18n="button_enviar_formlario" value="Enviar">
 
         </form>

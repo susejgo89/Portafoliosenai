@@ -5,7 +5,7 @@ const translations = {
         nav_contact: "Contato",
         about_title: "Sobre mim",
         about_text: "Olá! Meu nome é Susej Gonzalez, sou uma estudante de Sistemas para Internet, apaixonada por tecnologia e inovação. Tenho experiência em desenvolvimento de software, inteligência artificial e análise de dados. Estou sempre buscando aprender novas habilidades e enfrentar desafios emocionantes no campo da tecnologia.",
-        skills_title: "Habilidades",
+        skills_title: "Habilidades e Tecnologias",
         skill_1: "Programação em JavaScript",
         skill_2: "Desenvolvimento web com HTML, CSS e frameworks como React",
         skill_3: "Inteligência Artificial e Machine Learning",
@@ -29,7 +29,16 @@ const translations = {
         subject_outro_option: "outro",
         subject_option_1: "Orçamento",
          newsletter_label: "Inscrever-se na newsletter, fique por dentro!",
-         button_enviar_formlario: "Enviar"
+         button_enviar_formlario: "Enviar",
+         skills_col_tech: "Tecnologias",
+         skills_col_level: "Nível",
+        skills_col_desc: "Descrição",
+        html_skills: "HTML",
+        html_level: "Iniciante",
+        html_desc: "Conhecimento básico de marcação e estruturação de páginas web. Capaz de contruie paginas web semanticas e responsivas.",
+        css_skills: "CSS",
+        css_level: "Iniciante",
+        css_desc: "Conhecimento básico de estilização e layout de páginas web. Capaz de criar designs responsivos e modernos.",
     },
     es: {
         nav_about: "Sobre mí",
@@ -37,7 +46,7 @@ const translations = {
         nav_contact: "Contacto",
         about_title: "Sobre mí",
         about_text: "¡Hola! Mi nombre es Susej Gonzalez, soy una estudiante de Sistemas para Internet, apasionada por la tecnología y la innovación. Tengo experiencia en desarrollo de software, inteligencia artificial y análisis de datos. Siempre estoy buscando aprender nuevas habilidades y enfrentar desafíos emocionantes en el campo de la tecnología.",
-        skills_title: "Habilidades",
+        skills_title: "Habilidades y Tecnologías",
         skill_1: "Programación en JavaScript",
         skill_2: "Desarrollo web con HTML, CSS y frameworks como React",
         skill_3: "Inteligencia Artificial y Machine Learning",
@@ -61,11 +70,24 @@ const translations = {
         subject_outro_option: "otro", 
         subject_option_1: "Presupuesto",
         newsletter_label: "¡Suscríbete al newsletter, mantente informado!",
-        button_enviar_formlario: "Enviar"
-       
-    }
+        button_enviar_formlario: "Enviar",
+        skills_col_tech: "Tecnologías",
+        skills_col_level: "Nivel",
+        skills_col_desc: "Descripción",
+        html_skills: "HTML",
+        html_level: "Principiante",
+        html_desc: "Conocimiento básico de marcacióny estructuración de páginas web. Capaz de construir páginas web semánticas y responsivas.",
+        css_skills: "CSS",
+        css_level: "Principiante",
+        css_desc: "Conocimiento básico de diseño y layout de páginas web. Capaz de crear diseños responsivos y modernos.",
+        javascript_skills: "JavaScript",
+        javascript_level: "Básico",
+        javascript_desc: "Conocimiento básico de programación en JavaScript para interactividad y dinamismo en páginas web.",
+    },
 
-};
+    
+       
+    };
 
 function changeLanguage(lang) {
     const elements = document.querySelectorAll('[data-i18n]');
